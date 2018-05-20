@@ -1,6 +1,19 @@
 """
     Модуль для скачивания данных с Kaggle
 """
+import os
+import urllib3
+import multiprocessing
+
+
+from tqdm import tqdm
+from urllib3.util import Retry
+from IPython.display import Image
+import zipfile
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
+from google.colab import auth
+from oauth2client.client import GoogleCredentials
 
 
 class FS:
