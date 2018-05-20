@@ -1,6 +1,7 @@
 """
     Модуль для детекции изображений
 """
+import os
 
 import matplotlib.pyplot as plt
 
