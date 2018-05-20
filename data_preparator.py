@@ -5,6 +5,8 @@ import os
 from subprocess import call
 import json
 
+import shutil
+
 
 class DataPreparator:
     """Работа с данными: создаём структуру директорий, скачиваем из интернетов"""
